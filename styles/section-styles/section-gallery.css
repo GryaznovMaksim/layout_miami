@@ -1,0 +1,84 @@
+.section-gallery {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto 152px; }
+  .section-gallery h4 {
+    color: #000; }
+  .section-gallery__title {
+    position: relative;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 48px;
+    margin-bottom: 53px;
+    padding-bottom: 8px; }
+    .section-gallery__title::after {
+      position: absolute;
+      content: url(../images/crown.svg);
+      left: 50%;
+      bottom: -20px;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+  .section-gallery__images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 24px; }
+  .section-gallery__img {
+    height: 256px;
+    border-radius: 8px; }
+    .section-gallery__img--1 {
+      width: calc(66.6% - 10px);
+      margin-right: 20px; }
+    .section-gallery__img--2 {
+      width: calc(33.3% - 10px); }
+    .section-gallery__img--3 {
+      width: calc(50% - 10px);
+      margin-right: 20px; }
+    .section-gallery__img--4 {
+      width: calc(50% - 10px); }
+    .section-gallery__img--5 {
+      width: calc(33.3% - 10px);
+      margin-right: 20px; }
+    .section-gallery__img--6 {
+      width: calc(66.6% - 10px); }
+    @media (max-width: 800px) {
+      .section-gallery__img {
+        width: calc(50% - 10px);
+        height: 131px; } }
+  .section-gallery__heading {
+    margin-bottom: 40px;
+    font-size: 1rem;
+    line-height: 27px;
+    font-weight: normal; }
+  .section-gallery__accent {
+    color: #0075ff;
+    font-weight: bold; }
+  .section-gallery__button {
+    display: block;
+    width: 188px;
+    height: 56px;
+    outline: none;
+    margin: 0 auto;
+    text-align: center;
+    color: #0075ff;
+    font-size: 1rem;
+    line-height: 52px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 2px solid #0075ff;
+    border-radius: 8px;
+    -webkit-transition: color 0.3s linear, background-color 0.3s linear;
+    transition: color 0.3s linear, background-color 0.3s linear; }
+    .section-gallery__button:hover {
+      background-color: #0075ff;
+      color: #fff; }
+    .section-gallery__button:focus {
+      -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+              box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46); }
+    @media (max-width: 400px) {
+      .section-gallery__button {
+        width: 100%; } }
+
+/*# sourceMappingURL=section-gallery.css.map */

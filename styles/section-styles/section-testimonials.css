@@ -1,0 +1,56 @@
+.section-testimonials {
+  margin: 0 auto 152px; }
+  .section-testimonials__title {
+    position: relative;
+    text-align: center;
+    color: #000;
+    font-size: 3rem;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+    margin-bottom: 85px;
+    padding-bottom: 8px; }
+    .section-testimonials__title::after {
+      position: absolute;
+      content: url(../images/crown.svg);
+      left: 50%;
+      bottom: -20px;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+  .section-testimonials__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    @media (max-width: 800px) {
+      .section-testimonials__container {
+        display: block; } }
+  .section-testimonials__item {
+    max-width: 240px;
+    text-align: center; }
+    @media (max-width: 800px) {
+      .section-testimonials__item {
+        margin: 0 auto 48px; } }
+  .section-testimonials__photo {
+    margin-bottom: 28px;
+    width: 153px;
+    height: 153px;
+    border-radius: 50%; }
+  .section-testimonials__name {
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: #0075ff;
+    margin-bottom: 4px; }
+  .section-testimonials__position {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: normal;
+    color: #b9c1ce;
+    margin-bottom: 13px; }
+  .section-testimonials__text {
+    font-size: 1rem;
+    line-height: 27px;
+    font-weight: normal; }
+
+/*# sourceMappingURL=section-testimonials.css.map */

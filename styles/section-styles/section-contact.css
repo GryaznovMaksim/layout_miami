@@ -1,0 +1,59 @@
+.section-contact {
+  margin: 0 auto 88px; }
+  .section-contact__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    @media (max-width: 800px) {
+      .section-contact__container {
+        display: block; } }
+  .section-contact__left {
+    max-width: 413px;
+    display: grid;
+    grid-template-areas: "b1 b2" "b3 b2";
+    grid-template-rows: repeat(2, 74px);
+    grid-template-columns: 261px 152px;
+    gap: 20px; }
+    @media (max-width: 800px) {
+      .section-contact__left {
+        display: block;
+        margin: 0 auto 32px; } }
+  .section-contact__title {
+    position: relative;
+    font-size: 3rem;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 85px;
+    padding-bottom: 8px; }
+    .section-contact__title::after {
+      position: absolute;
+      content: url(../images/crown.svg);
+      left: 50%;
+      bottom: -20px;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+  .section-contact__heading {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 27px;
+    color: #b9c1ce;
+    margin-bottom: 8px; }
+  .section-contact__text {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 27px;
+    margin: 0;
+    color: #000; }
+  .section-contact__phone {
+    grid-area: b1; }
+  .section-contact__address {
+    grid-area: b2; }
+  .section-contact__email {
+    grid-area: b3; }
+
+/*# sourceMappingURL=section-contact.css.map */

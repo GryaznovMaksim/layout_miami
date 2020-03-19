@@ -1,0 +1,19 @@
+.footer {
+  position: relative;
+  min-height: 359px;
+  background-image: url(../images/footer1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
+  .footer__logo {
+    position: absolute;
+    width: 115px;
+    height: 76px;
+    left: 50%;
+    bottom: 40px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%); }
+  .footer__link:focus {
+    outline: 1px dotted red; }
+
+/*# sourceMappingURL=footer.css.map */
